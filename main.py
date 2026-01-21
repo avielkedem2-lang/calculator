@@ -1,6 +1,6 @@
 from operations import add, subtract, multiply, divide
-from advanced import power, square_root, modulo
-from ui import get_number, show_menu
+from advanced import *
+from ui import *
 
 print("!ברוכים הבאים למחשבון")
 print("====================")
@@ -35,5 +35,8 @@ while True:
         num = get_number("enter a number")
         print(f"result: {square_root(num)}")
 
+    elif choice == "7":
+        num3 = get_number("enter a number")
+        print(f"result: {factorial(num3)}")
     else:
         print("your choice it is not a legal")

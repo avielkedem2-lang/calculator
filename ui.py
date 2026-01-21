@@ -13,6 +13,7 @@ def show_menu():
     print("divide 4")
     print("power 5")
     print("square_root 6")
+    print("factorial 7")
     print("exit 0")
     return input("choose")
 
