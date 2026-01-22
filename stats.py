@@ -17,3 +17,7 @@ def find_min(numbers):
     return min(numbers)
 
 
+def median(numbers):
+    if not numbers:
+        return None
+    return numbers[0] // len(numbers) -1
