@@ -14,6 +14,9 @@ def show_menu():
     print("power 5")
     print("square_root 6")
     print("factorial 7")
+    print("--- היסטוריה ---")
+    print("הצג היסטוריה .8")
+    print("נקה היסטוריה .9")
     print("exit 0")
     return input("choose")
 
