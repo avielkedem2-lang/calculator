@@ -11,5 +11,6 @@ def multiply(a, b):
 
 def divide(a, b):
     if b == 0:
-        return "b can't be 0"
+        print("you can't divide with 0")
+        return None
     return a / b
