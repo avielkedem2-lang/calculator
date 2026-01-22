@@ -3,8 +3,11 @@ from advanced import *
 from ui import *
 from history import add_to_history, show_history, clear_history
 
-print("!ברוכים הבאים למחשבון")
-print("====================")
+print("╔════════════════════════════╗")
+print("║ welcome to the calculater! ║")
+print("║          version 4.0       ║")
+print("╚════════════════════════════╝")
+
 
 while True:
     choice = show_menu()
