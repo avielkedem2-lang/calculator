@@ -2,7 +2,8 @@ from operations import add, subtract, multiply, divide
 from advanced import *
 from ui import *
 from history import add_to_history, show_history, clear_history
-
+from constants import *
+from geometry import *
 print("╔════════════════════════════╗")
 print("║ welcome to the calculater! ║")
 print("║          version 4.0       ║")
@@ -65,6 +66,24 @@ while True:
 
     elif choice == "9":
         clear_history()
+
+    elif choice == "10":
+        show_constants()
+
+    elif choice == "11":
+        r = get_number("enter a number")
+        print(f"result: {area_circle(r)}")
+
+    elif choice == "12":
+        hi = get_number("enter a number")
+        lo = get_number("enter a number")
+        print(f"result: {rectangle_area(lo, hi)}")
+
+    elif choice == "13":
+        base = get_number("enter a number")
+        hei = get_number("enter a number")
+        print(f"result: {triangle_area(base, hei)}")
+
 
     else:
         print("your choice it is not a legal")
