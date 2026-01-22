@@ -17,6 +17,7 @@ def show_menu():
     print("--- היסטוריה ---")
     print("הצג היסטוריה .8")
     print("נקה היסטוריה .9")
+    print("הצג קבועים 10.")
     print("exit 0")
     return input("choose")
 
