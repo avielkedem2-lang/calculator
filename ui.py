@@ -18,6 +18,11 @@ def show_menu():
     print("הצג היסטוריה .8")
     print("נקה היסטוריה .9")
     print("הצג קבועים 10.")
+    print("--- גיאומטריה ---")
+    print("שטח עיגול 11")
+    print("שטח מלבן 12")
+    print("שטח משולש 13")
     print("exit 0")
+
     return input("choose")
 
